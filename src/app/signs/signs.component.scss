@@ -1,0 +1,36 @@
+@import '../../scss/variables';
+
+:host {
+  display: grid;
+  grid-gap: 1rem;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (min-width: 900px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  max-width: 1200px;
+  margin: ($header-height + $body-font-size) auto $body-font-size;
+}
+
+.sign {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .counter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+}
