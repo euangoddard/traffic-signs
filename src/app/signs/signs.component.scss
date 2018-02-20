@@ -18,19 +18,3 @@
   margin: ($header-height + $body-font-size) auto $body-font-size;
 }
 
-.sign {
-  position: relative;
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  .counter {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 0.75rem;
-    font-weight: 700;
-  }
-}

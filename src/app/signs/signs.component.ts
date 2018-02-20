@@ -1,16 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'signs',
   templateUrl: './signs.component.html',
   styleUrls: ['./signs.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SignsComponent implements OnInit {
+export class SignsComponent {
   readonly signs = SIGNS;
 
   constructor() {}
-
-  ngOnInit() {}
 }
 
 const SIGNS = [

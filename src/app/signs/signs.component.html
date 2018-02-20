@@ -1,3 +1,1 @@
-<div class="sign" *ngFor="let sign of signs">
-  <img [src]="'/assets/signs/' + sign" alt="Sign">
-</div>
+<sign *ngFor="let sign of signs" [sign]="sign"></sign>
