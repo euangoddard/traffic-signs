@@ -9,7 +9,6 @@ import { StateService } from '../state.service';
 @Component({
   selector: 'sign',
   templateUrl: './sign.component.html',
-  styleUrls: ['./sign.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SignComponent {

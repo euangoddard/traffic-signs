@@ -5,7 +5,7 @@ body {
   font-size: $body-font-size;
   line-height: 1.21;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   font-weight: 400;
   color: #212121;
   -webkit-font-smoothing: antialiased;
@@ -14,4 +14,71 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
+}
+
+signs {
+  display: grid;
+  grid-gap: 1rem;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (min-width: 900px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  max-width: 1200px;
+  margin: ($header-height + $body-font-size) auto $body-font-size;
+}
+
+sign {
+  display: block;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    min-width: 1rem;
+    background-color: rgba(#999, 0.5);
+    user-select: none;
+  }
+}
+
+.top-bar {
+  height: $header-height;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(#999, 0.96);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar-title {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+  line-height: 1;
+  font-weight: 500;
 }
