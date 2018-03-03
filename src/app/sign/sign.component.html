@@ -1,2 +1,2 @@
 <img [src]="'/assets/signs/' + sign" alt="Sign">
-<span class="counter" [@score]="scoreState" (@score.done)="finishAnimation()">{{ hits.selectHits(sign) | async }}</span>
+<span class="counter" [@score]="scoreState" (@score.done)="finishAnimation($event)">{{ hits.selectHits(sign) | async }}</span>
