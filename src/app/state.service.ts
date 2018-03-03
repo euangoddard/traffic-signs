@@ -22,6 +22,15 @@ export class StateService {
     );
   }
 
+  selectUniqueCount(): Observable<number> {
+    return this.hitsBySignSubject.pipe(
+      map(m => {
+        return Object.values(m).filter(v => !!v).length;
+      }),
+      distinctUntilChanged(),
+    );
+  }
+
   reset(): void {
     this.hitsBySignSubject.next({});
     localforage.removeItem(StateService.STORAGE_KEY);

@@ -10,9 +10,16 @@ import { SignsComponent } from './signs/signs.component';
 import { StateService } from './state.service';
 import { SignComponent } from './sign/sign.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { StatusOverlayComponent } from './status-overlay/status-overlay.component';
 
 @NgModule({
-  declarations: [AppComponent, SignsComponent, SignComponent, TopBarComponent],
+  declarations: [
+    AppComponent,
+    SignsComponent,
+    SignComponent,
+    TopBarComponent,
+    StatusOverlayComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

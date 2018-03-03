@@ -11,7 +11,7 @@ export class SignsComponent {
   constructor() {}
 }
 
-const SIGNS = [
+export const SIGNS = [
   'UK_traffic_sign_500.svg',
   'UK_traffic_sign_501.svg',
   'UK_traffic_sign_504.1.svg',

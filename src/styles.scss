@@ -5,7 +5,7 @@ body {
   font-size: $body-font-size;
   line-height: 1.21;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-  Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   font-weight: 400;
   color: #212121;
   -webkit-font-smoothing: antialiased;
@@ -68,8 +68,8 @@ sign {
   left: 0;
   width: 100%;
   background-color: rgba(#999, 0.96);
-  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
-  z-index: 1;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  z-index: $header-zindex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,4 +81,27 @@ sign {
   margin: 0;
   line-height: 1;
   font-weight: 500;
+}
+
+.overlay-wrapper {
+  position: fixed;
+  z-index: $overlay-zindex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-number {
+  margin: 0;
+  font-size: 50vmin;
+  font-weight: 500;
+  display: block;
+  line-height: 1;
+  color: #444;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
 }
