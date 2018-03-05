@@ -8,11 +8,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/favicon.ico",
-        "/index.html",
-        "/inline.318b50c57b4eba3d437b.bundle.js",
-        "/main.edcc14f07eb47b49de07.bundle.js",
-        "/polyfills.2944ff933ee2d32e8e84.bundle.js",
-        "/styles.d92d2e51841ae8f3d728.bundle.css"
+        "/index.html"
       ],
       "patterns": []
     },
@@ -159,17 +155,13 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/assets/signs/UK_traffic_sign_500.svg": "f761014b6583b19ed204dfd778686fb3d71d278f",
-    "/main.edcc14f07eb47b49de07.bundle.js": "1ff8591ca35663e423f4ff0a0fdfae52aa6b6dbc",
-    "/assets/signs/UK_traffic_sign_501.svg": "7b228edb6b2d7188eb4a0311556d526ac09956e8",
-    "/polyfills.2944ff933ee2d32e8e84.bundle.js": "5f49131c0c147a20f91b1e77814434e0c77bd3dc",
-    "/assets/signs/UK_traffic_sign_504.1.svg": "7d8fbf076dc103989a1062616cf108ae6e301027",
-    "/styles.d92d2e51841ae8f3d728.bundle.css": "711a66601a6f2b38d48c521b8ca137646f3e57de",
-    "/assets/signs/UK_traffic_sign_504.1L.svg": "13cad0b8e9b47c3eb8c4766d14ade73a35dc0306",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/signs/UK_traffic_sign_500.svg": "f761014b6583b19ed204dfd778686fb3d71d278f",
+    "/index.html": "0c154b82a8dc57ed05b62488fceb85a32b3d4c15",
+    "/assets/signs/UK_traffic_sign_501.svg": "7b228edb6b2d7188eb4a0311556d526ac09956e8",
+    "/assets/signs/UK_traffic_sign_504.1.svg": "7d8fbf076dc103989a1062616cf108ae6e301027",
+    "/assets/signs/UK_traffic_sign_504.1L.svg": "13cad0b8e9b47c3eb8c4766d14ade73a35dc0306",
     "/assets/signs/UK_traffic_sign_504.1R.svg": "dc52d6e3eec0d4fbeaa8cb7b98986f7a27ad19e9",
-    "/index.html": "e94b74b61780aa5b05d34018f2b8fa9a1ef2bca9",
     "/assets/signs/UK_traffic_sign_505.1.svg": "1fe40e9b2835dba06224e67fbb5dd647afe1e6cf",
     "/assets/signs/UK_traffic_sign_505.1R.svg": "207181b7da06114598f98b05415957988410721d",
     "/assets/signs/UK_traffic_sign_506.1.svg": "b374d05050da6e85ba4412e8ace6005238e87f2c",
