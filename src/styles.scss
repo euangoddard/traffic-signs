@@ -81,6 +81,15 @@ sign {
   margin: 0;
   line-height: 1;
   font-weight: 500;
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.top-bar-button {
+  appearance: none;
+  font-family: inherit;
+  border: none;
+  background: none;
 }
 
 .overlay-wrapper {
